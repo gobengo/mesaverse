@@ -4,15 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npx ts-node src/gridworld-server/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@jest/globals": "^27.0.1",
+    "@types/jest": "^26.0.23",
     "@types/node": "^15.6.1",
     "jest": "^27.0.1",
+    "ts-jest": "^27.0.1",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@types/common-tags": "^1.8.0",
+    "common-tags": "^1.8.0"
   }
 }
